@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Afacad Flux", serif;
+}
+input {
+  &:focus {
+    outline: 1px solid rgb(223, 223, 223);
+  }
+}
